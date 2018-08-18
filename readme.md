@@ -66,7 +66,7 @@ PUT http://localhost:4870/api/products
 ```
 Sample Payload
 ```json
-[ {
+[{
         "name": "Another Amp 3",
         "quantity": 14,
         "sale_amount": 26
