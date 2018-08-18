@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aspnet_rest_api.Configurations;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,7 @@ namespace aspnet_rest_api
     {
         protected void Application_Start()
         {
+            AutoMapperConfig.Initialize();
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
