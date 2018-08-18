@@ -1,0 +1,42 @@
+{
+	"variables": [],
+	"info": {
+		"name": "rest_api_test",
+		"_postman_id": "8d269105-8927-bc05-47d5-3f88ac3a4fc0",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAll",
+			"request": {
+				"url": "http://localhost:4870/api/products",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "saveMany",
+			"request": {
+				"url": "http://localhost:4870/api/products",
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "[ {\n        \"name\": \"Another Amp 3\",\n        \"quantity\": 1,\n        \"sale_amount\": 2\n    }, {\n        \"name\": \"Another Amp 4\",\n        \"quantity\": 1,\n        \"sale_amount\": 2\n    },\n     {\n        \"name\": \"Another Amp 5\",\n        \"quantity\": 100,\n        \"sale_amount\": 20\n    }]"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
