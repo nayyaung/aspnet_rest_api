@@ -6,7 +6,7 @@
 - Integrated Local DB is used in order not to require MSSQL Server installation
 - IIS Express running with port number 4870 is used for development. http://localhost:4870
 
-## How to run tests
+## How to Run Solution & Tests
 ### Automated tests
 Open visual studio 2017 command prompts using Administrator rights
 Locate to the output folder of test project (eg: Aspnet_rest_api\aspnet_rest_api.Tests\bin\Debug)
