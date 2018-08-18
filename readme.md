@@ -1,8 +1,8 @@
 # ASP.NET Rest API using Web API 2
+- Main purpose is to demostrate Rest API using minimal configurations
 
 ## Requirements & Assumption
-- Developer has Visual Studio 2017, .Net Framework 4.7.2, Web API 2 installed 
-- Main purpose is to demostrate Rest API using minimal configurations
+- Visual Studio 2017 Enterprise, .Net Framework 4.7.2, Web API 2 already installed 
 - Integrated Local DB is used in order not to require MSSQL Server installation
 - IIS Express running with port number 4870 is used for development. http://localhost:4870
 
