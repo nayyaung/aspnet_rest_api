@@ -23,6 +23,7 @@ vstest.console.exe aspnet_rest_api.Tests.dll
 ```
 
 ### Manual API Calls using Postman
+- Open the solution using Visual Studio 2017, locate to aspnet_rest_api project under aspnet_rest_api solution. Click run button on Visual Studion using IIS Express.
 - Postman https://www.getpostman.com/ is used for the testing API calls. The collection is available in "postman_api_calls" directory. It can be imported for testing.
 
 ## Configurations
