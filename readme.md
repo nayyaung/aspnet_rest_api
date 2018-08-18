@@ -2,13 +2,15 @@
 - Main purpose is to demostrate Rest API using minimal configurations
 
 ## Requirements & Assumption
-- Visual Studio 2017 Enterprise, .Net Framework 4.7.2, Web API 2 already installed 
+- Developed using Visual Studio 2017 Enterprise, .Net Framework 4.7.2, Web API 2.
 - Integrated Local DB is used in order not to require MSSQL Server installation
 - IIS Express running with port number 4870 is used for development. http://localhost:4870
 
 ## How to Run Solution & Tests
+Download or clone the solution. Open it using Visual Studio 2017.
+
 ### Automated tests
-Open visual studio 2017 command prompts using Administrator rights
+Open visual studio 2017 command prompts using Administrator rights.
 Locate to the output folder of test project (eg: Aspnet_rest_api\aspnet_rest_api.Tests\bin\Debug)
 Execute the command below
 ``` console
