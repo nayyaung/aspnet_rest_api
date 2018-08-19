@@ -22,7 +22,7 @@ vstest.console.exe aspnet_rest_api.Tests.dll
 - Postman https://www.getpostman.com/ is used for the testing API calls. The collection is available in "postman_api_calls" directory. It can be imported for testing.
 
 ## List of API
-##### Get all product IDs 
+#### Get all product IDs 
 ```
 GET http://localhost:4870/api/products
 ```
@@ -44,7 +44,7 @@ Sample Response
 }
 ```
 
-##### Get individual product details. Links are also available from all product Id API call's response
+#### Get individual product details. Links are also available from all product Id API call's response
 ```
 GET http://localhost:4870/api/products/{id}
 ```
@@ -62,7 +62,7 @@ Sample Response
 }
 ```
 
-##### Save products IDs 
+#### Save products IDs 
 ```
 PUT http://localhost:4870/api/products
 ```
